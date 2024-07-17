@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(26, 23, 23);
+}
+.padding-both{
+    padding: 50px 0px;
+}
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half-div{
+    width: 60%;
+}
+/* navbar start */
+.navbar{
+    max-width: 1150px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.logo-name h3{
+    font-size: 40px;
+    width: 700;
+    color: #FD6F00;
+}
+.nav-other li{
+    list-style: none;
+    margin-left: 21px
+    
+}
+.nav-other li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.nav-down{
+    background-color: #FD6F00;
+    padding: 8px 5px;
+}
+/* navbar end */
+
+.banner-content{
+    color: white;
+}
+.star{
+    width: 50px;
+    height: 55px;
+    color: #FD6F00;
+    
+}
+.star1{
+    width: 30px;
+    height: 35px;
+    color: #FD6F00;
+    
+}
+.upper-bio{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px
+}
+.banner-area{
+    padding: 10px 0px;
+}
+.banner-content h1 {
+    font-size: 40px;
+}
+.banner-content{
+    margin-bottom: 40px;
+    p{
+        color: #b4acac;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+}
+.banner-img img{
+    height: 450px;
+    width: 420px;
+    border-radius: 50%;
+    /* border-style: solid ; */
+    /* border-color: #F5DEB3; */
+    /* border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1; */
+    /* border-width: 10px; */
+    border: double 4px transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left,#FFE4C4, #a75c02);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+.LAST{
+    font-family: Rubik;
+    margin-top: 18px;
+    font-size: 22px;
+}
+.addr{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+/* .bio-skd p{
+    font-size: 30px;
+   
+} */
+.ad{
+    color: #FD6F00;
+}
+.hover-effect-add{
+    /* margin-left: 5px; */
+    display: flex;
+    gap: 20px;
+    background-color: rgb(50, 48, 48);
+   
+}
+.hover-effect-add h2{
+    padding: 25px 10px;
+    font-size: 25px;
+   
+}
+.hover-effect-add h2:hover{
+    background-color: #FD6F00;
+    border-radius: 40px;
+    font-size: 26px;
+    
+    
+}
+.hover-effect-add{
+    border: 2px solid rgb(254, 254, 254);
+    max-width:280px;
+    padding: 10px 8px;
+    border-radius:40px;
+}
+.social-links{
+   color: white;
+   font-size: 50px;
+}
+.iconss{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,191 @@
+.grid{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+.main-grid{
+    background-color: black;
+    max-width: 1200px;
+    margin-left: 200px;
+    margin-right: 50px;
+    /* margin-top: 90px; */
+    padding: 40px 30px;
+    height: 200px;
+    font-size: 16px;
+    p{
+        padding-top: 40px;
+    }
+}
+
+
+/* neww */
+
+.MY-PORTFOLIO{
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MY-PORTFOLIO h1{
+    color: white ;
+    font-style: bold;
+    font-size: 30px;
+}
+.MY-PORTFOLIO p{
+    color: white ;
+    font-size: 25px;
+}
+.m-nav{
+    color: white;
+    background-color: black;
+    max-width: 180px;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-style: bold;
+    height: 50px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MY-PORTFOLIO1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 320px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
+}
+
+
+.img-skd{
+    margin-top: 30px;
+    width: 600px;
+    height: 500px;
+    border: 5px solid greenyellow;
+}
+.img-text{
+    color: white;
+    margin-top: 30px;
+      /* margin-right: 50 0px; */
+}
+.img-text h3{
+    font-size: 30px;
+}
+.img-text h1{
+    font-size: 40px;
+}
+.img-text p{
+    font-size: 22px;
+    color: gray;
+}
+.img-field{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+ 
+}
+.contact-me{
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-me h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.contact-me h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* form */
+.form-skd{
+    background-color: rgb(78, 35, 35);
+    max-width: 1300px;
+    height: 700px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.form-skd h1{
+    color: white;
+    font-size: 35px;
+    padding: 40px 30px;
+    margin-left: 50px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    
+}
+
+
+.form-skd-inside{
+    display: flex;
+    margin: 40px 80px;
+    
+}
+.custome-form-area input, .custome-form-area textarea{
+    width: 40%;
+    border: 1px solid white;
+    pad:5px;
+    padding: 5px 15px;
+    font-size: 30px;
+    color: white ;
+    background-color:rgb(78, 35, 35) ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    gap: 20px;
+    margin-top: 60px;
+}
+.custome-form-area textarea{
+    width: 83%;
+    margin-top: 60px;
+}
+.submit-btn{
+    height: 80px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-left: 80px;
+    background-color: orange;
+   
+}
+.attach-file{
+    height: 30px;
+    width: 50px;
+}
+.at-file{
+    margin-left: 50px;
+}
+.footer{
+    background-color: black;
+    height: 650px;
+    color: white  ;
+   
+}
+.foot-log{
+    font-size: 60px;
+    padding: 60px;
+    text-align: center;
+    font-style: bold;
+    color: orange;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.inside-footer{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    margin-left: 15%;
+}
+.footer-icon{
+    gap: 60px;
+    margin-top: 50px;
+    margin-left: 37%;
+}
+.last-foot{
+    font-size: 30px;
+    margin-top: 200px;
+    text-align: center;
+}

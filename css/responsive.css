@@ -1,0 +1,167 @@
+@media only screen and (max-width:740px){
+   .navbar{
+    width: 95%;
+   }
+   .nav-other li{
+    margin-left: 0px
+    }
+    .flex-div{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .banner-content{
+        font-size: 40px;
+        line-height: 40px ;
+        font-weight: 100;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-content h1 {
+        margin-top: 10px;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .upper-bio{
+       
+        justify-content: center;
+        flex-direction: column;
+    }
+    .star{
+        margin-left: 80px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .star1{
+        margin-left: 30px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .addr{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-img img{
+        max-width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hover-effect-add{
+        display: flex;
+        justify-content: center;
+        flex-direction: column  ;
+        align-items: center;
+        margin-right: 15px;
+    }
+    .hover-effect-add h2:hover{
+        background-color: #FD6F00;
+        display: flex;
+        justify-content: center;
+        flex-direction: column  ;
+        /* align-items: center; */
+    }
+    .iconss{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rotate-nav{
+        display: inline;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        rotate: none;
+       
+    }
+    .inside-rotate-nav{
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        size: 20px;
+        
+
+      
+    }
+    .rotate-nav h1{
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .about{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .rating{
+        margin-top: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .year{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+   .portfolio-left-side{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* background-image: linear-gradient(to bottom right, rgb(61, 28, 63), #d831291a); */
+   }
+   .rr1{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        /* background-image: linear-gradient(to bottom right, rgb(61, 28, 63), #d831291a); */
+   }
+   .rr2{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        /* background-image: linear-gradient(to bottom right, rgb(61, 28, 63), #d831291a); */
+   }
+   .rr3{
+        font-size: 20px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* background-image: linear-gradient(to bottom right, rgb(61, 28, 63), #d831291a); */
+   }
+   .portfolio-section{
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        margin: 10px 10px;
+        /* background-image: linear-gradient(to bottom right, rgb(61, 28, 63), #d831291a); */
+   }
+
+  /* award section */
+     .aw-st{
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+        .awards{
+            display: flex  ;
+        justify-content: center;
+        flex-direction: column;
+       
+
+
+    }
+
+}

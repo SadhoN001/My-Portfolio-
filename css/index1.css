@@ -1,0 +1,123 @@
+.inside-rotate-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.rotate-nav{
+    background-color: black;
+    height: 130px;
+    rotate: -5deg;
+    padding: 0px 10px;
+
+}
+.rotate-nav h1{
+    color: white;
+    padding: 50px 0px;
+    font-size: 30px;
+}
+/* about section */
+.ab-section{
+    margin-left: 40px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 30px; */
+    /* margin-right: 30px; */
+    margin: 80px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.skill-name{
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.skill-about{
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rating{
+    font-size: 20px;
+    
+}
+.rating i{
+    color:  #FD6F00;
+}
+.experience{
+    color: white;
+    h1{
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   
+}
+
+/* Portfolio Section */
+
+.portfolio-section{
+    background-image: linear-gradient(to bottom right, rgb(61, 28, 63), #d831291a);
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-left-side{
+    font-size: 15px;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 80px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    h1{
+        font-size: 50px;
+    }
+}
+
+.portfolio-right-side{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 40px;
+    h3,p{
+        width: 200px;
+    }
+}
+.year{
+    padding-left: 70px;
+    font-size: 30px;
+    margin-top: 18px;
+}
+
+/* awards section */
+.aw-st{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.awards{
+    /* margin-top: 30px; */
+    
+    height: 200px;
+    h1{
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+        /* margin-top: 30px; */
+        padding-top: 80px;
+    }
+    p{
+        text-align: center;
+        color: rgb(141, 129, 129);
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
